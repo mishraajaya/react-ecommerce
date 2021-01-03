@@ -49,7 +49,8 @@ module.exports = {
     alias: {
       components: path.resolve(__dirname, '../src/components'),
       styles: path.resolve(__dirname, '../src/styles'),
-      images: path.resolve(__dirname, '../public/images')
+      images: path.resolve(__dirname, '../public/images'),
+      data: path.resolve(__dirname, '../src/data')
     }
   },
   devServer: {

@@ -43,6 +43,7 @@ module.exports = {
     'react/no-unused-prop-types': 2,
     'react/no-unused-state': 2,
     'react/prop-types': 1,
+    'react/forbid-prop-types': 0,
     'react/no-array-index-key': 1,
     'react/display-name': 0
   }

@@ -3,35 +3,36 @@ import React from 'react'
 import MenuItem from 'components/common/menu-item'
 
 const Directory = () => {
+  const imagePath = 'public/images'
   const menuItems = [
     {
       title: 'hats',
-      imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+      imageUrl: `${imagePath}/homepage/hats.png`,
       id: 1,
       linkUrl: 'shop/hats'
     },
     {
       title: 'jackets',
-      imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+      imageUrl: `${imagePath}/homepage/jackets.png`,
       id: 2,
       linkUrl: 'shop/jackets'
     },
     {
       title: 'sneakers',
-      imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+      imageUrl: `${imagePath}/homepage/sneakers.png`,
       id: 3,
       linkUrl: 'shop/sneakers'
     },
     {
       title: 'womens',
-      imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+      imageUrl: `${imagePath}/homepage/womens.png`,
       size: 'large',
       id: 4,
       linkUrl: 'shop/womens'
     },
     {
       title: 'mens',
-      imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+      imageUrl: `${imagePath}/homepage/mens.png`,
       size: 'large',
       id: 5,
       linkUrl: 'shop/mens'
