@@ -37,6 +37,23 @@ module.exports = {
         trailingComma: 'none'
       }
     ],
+    'import/extensions': [
+      'error',
+      {
+        '.jsx': 'never'
+      }
+    ],
+    'react/button-has-type': [
+      0,
+      {
+        button: 0,
+        submit: 0,
+        reset: 0
+      }
+    ],
+    'jsx-a11y/label-has-associated-control': 0,
+    'jsx-a11y/label-has-for': 0,
+    'react/jsx-props-no-spreading': 0,
     'react-hooks/exhaustive-deps': 'warn',
     'react-hooks/rules-of-hooks': 'error',
     'react/no-find-dom-node': 2,
